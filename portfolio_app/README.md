@@ -175,7 +175,7 @@
 ---
 
 ## 📁 Project Structure
-
+```text
 
 portfolio_app/
 │
@@ -211,7 +211,7 @@ portfolio_app/
     ├── 5_📜_Certificates.py
     ├── 6_📞_Contact.py
     └── 7_✨_Stargazing.py
-
+```
 ---
 
 ## 🚀 Installation
