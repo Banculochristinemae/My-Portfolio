@@ -388,6 +388,6 @@ This project is for personal portfolio purposes. All rights reserved.
 
 ⭐ If you like this project, please give it a star on GitHub! ⭐
 
-Created with 💜 by Christine Mae C. Banculo using Python and Streamlit
+Created with 💜 by Christine Mae C. Banculo
 
 </div> ```
