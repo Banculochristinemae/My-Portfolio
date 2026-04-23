@@ -1,308 +1,394 @@
 markdown
 <div align="center">
-  
-# ✨🌌 GALAXY PORTFOLIO 🌌✨
+
+# 🌌 Galaxy Portfolio
 
 ### *Christine Mae C. Banculo*
 
-[![Streamlit App](https://img.shields.io/badge/🚀_LIVE_DEMO-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://your-app-url.streamlit.app)
-[![GitHub](https://img.shields.io/badge/📂_SOURCE_CODE-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Banculochristinemae/portfolio_app)
-[![Python](https://img.shields.io/badge/🐍_PYTHON-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![License](https://img.shields.io/badge/📜_LICENSE-MIT- green?style=for-the-badge)](LICENSE)
+[![Streamlit App](https://img.shields.io/badge/LIVE_DEMO-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://your-app-url.streamlit.app)
+[![GitHub](https://img.shields.io/badge/SOURCE_CODE-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Banculochristinemae/portfolio_app)
+[![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
 
 </div>
 
 ---
 
-<div align="center">
-  
-![Portfolio Banner](https://via.placeholder.com/800x200/0a0f2a/7eb6ff?text=✨+Welcome+to+My+Galaxy+Portfolio+✨)
+## 📋 Table of Contents
 
-</div>
-
----
-
-## 🌟 *About This Project*
-
-> *"The stars are the limit when you code with passion."*
-
-Welcome to my **interactive galaxy-themed portfolio** — a journey through my world as a Computer Science student, developer, and creative soul. This isn't just a portfolio; it's an **experience** designed to immerse you in a cosmic adventure while discovering who I am and what I do.
-
-### 🎯 *What You'll Discover Here*
-
-| 🚀 | 🌌 | 🎨 | 💻 |
-|---|---|---|---|
-| My coding journey | Technical projects | Creative crafts | Professional growth |
+- [Repository Description](#-repository-description)
+- [Overview](#-overview)
+- [Features](#-features)
+- [Pages](#-pages)
+- [Technologies Used](#-technologies-used)
+- [Project Structure](#-project-structure)
+- [Installation](#-installation)
+- [Image Requirements](#-image-requirements)
+- [How to Use](#-how-to-use)
+- [Customization](#-customization)
+- [Deployment](#-deployment)
+- [Troubleshooting](#-troubleshooting)
+- [Contact](#-contact)
+- [Acknowledgments](#-acknowledgments)
+- [License](#-license)
 
 ---
 
-## ✨ *Features That Shine*
+## 📝 Repository Description
 
-### 🎨 *Design & Visuals*
+| Property | Value |
+|----------|-------|
+| **Repository Name** | `portfolio_app` |
+| **Owner** | Christine Mae C. Banculo |
+| **Purpose** | Personal portfolio website showcasing skills, projects, certificates, and creative work |
+| **Tech Stack** | Python, Streamlit, HTML/CSS, SVG, Pillow |
+| **Pages** | 7 interactive pages |
+| **Theme** | Galaxy-themed with gradients and animations |
+| **Status** | 🟢 Live |
 
+### Key Features
+- ✅ 7 Fully Functional Pages
+- ✅ Interactive Animations (UFO, celestial objects)
+- ✅ Real-time Music Player
+- ✅ Click-to-Enlarge Images
+- ✅ Responsive Design
+- ✅ Contact Form with Validation
+- ✅ Progress Bars
+- ✅ Project Rating System
+
+---
+
+## 📌 Overview
+
+**Galaxy Portfolio** is an interactive, multi-page portfolio website built with **Streamlit** that showcases the journey, skills, projects, and creative work of **Christine Mae C. Banculo** — a third-year Computer Science student at **DEBESMSCAT**.
+
+### Purpose
+| Area | Description |
+|------|-------------|
+| 🎓 **Academic** | Showcase programming projects and certifications |
+| 💼 **Professional** | Demonstrate technical skills and web development abilities |
+| 🎨 **Creative** | Share calligraphy and crochet artwork |
+| 🌌 **Experience** | Provide a relaxing stargazing corner with music |
+
+---
+
+## ✨ Features
+
+### Design & UI
 | Feature | Description |
-|:-------:|-------------|
-| 🌠 | **Galaxy-Themed Background** - Radial gradients with twinkling stars animation |
-| 🔮 | **Glassmorphism Cards** - Frosted glass effects with glowing hover animations |
-| 📱 | **Fully Responsive** - Seamless experience on desktop, tablet, and mobile |
-| 🧭 | **Custom Sidebar** - Elegant navigation with colored code snippet |
-| ✨ | **Hover Glow Effects** - Interactive feedback on every clickable element |
+|---------|-------------|
+| 🌠 **Galaxy Background** | Radial gradients with twinkling stars animation |
+| 🔮 **Glassmorphism** | Frosted glass effects with blur and glow |
+| 📱 **Responsive** | Works on desktop, tablet, and mobile |
+| 🧭 **Custom Sidebar** | 7-page navigation with colored code snippet |
+| ✨ **Hover Effects** | Interactive feedback on all clickable elements |
 
-### 🚀 *Interactive Magic*
-
+### Interactive Elements
 | Feature | Description |
-|:-------:|-------------|
-| 🖼️ | **Click-to-Enlarge Images** - View certificates and projects in full glory |
-| 🪐 | **Animated Celestial Objects** - SVG animations of stars, planets, and galaxies |
-| 🎵 | **Real-Time Music Player** - Relaxing space ambient tracks for stargazing |
-| 🛸 | **UFO Animation** - Flying saucers appear when you send a message |
-| 📊 | **Progress Bars** - Visual representation of my skill levels |
-| ⭐ | **Project Rating System** - Rate my work (1-5 stars) |
+|---------|-------------|
+| 🖼️ **Click-to-Enlarge** | View certificates and projects full-size |
+| 🪐 **Animated Objects** | SVG animations of stars, planets, galaxies |
+| 🎵 **Music Player** | 6 relaxing space ambient tracks |
+| 🛸 **UFO Animation** | Flying saucers appear on message submission |
+| 📊 **Progress Bars** | Visual skill level indicators |
+| ⭐ **Rating System** | Rate projects 1-5 stars |
 
 ---
 
-## 📚 *The Cosmic Library*
+## 📄 Pages
 
-### *7 Unique Pages, 7 Unique Experiences*
+| # | Page | Icon | Description |
+|---|------|------|-------------|
+| 1 | Home | 🏠 | Welcome section with profile photo and quick stats |
+| 2 | About | 👩‍💻 | Personal story, education, career goals, timeline |
+| 3 | Skills | 📊 | Programming languages, web tools, creative crafts |
+| 4 | Projects | 📁 | Project showcase with images and descriptions |
+| 5 | Certificates | 📜 | 6 professional certifications |
+| 6 | Contact | 📞 | Contact form with UFO animation |
+| 7 | Stargazing | ✨ | Celestial objects with animations and music |
 
-<div align="center">
+### Page Details
 
-| 🏠 | 👩‍💻 | 📊 | 📁 | 📜 | 📞 | ✨ |
-|---|---|---|---|---|---|---|
-| Home | About | Skills | Projects | Certificates | Contact | Stargazing |
-
-</div>
-
-### 🏠 *Home*
-> *Where the journey begins*
-
-- Circular profile photo with magical hover glow
-- Personal welcome message and introduction
+#### 🏠 Home
+- Circular profile photo with hover glow
+- Personal welcome message
 - Quick stats: 3rd Year • 4+ Projects • 6 Certifications • 7 Languages
 
-### 👩‍💻 *About*
-> *The story behind the coder*
+#### 👩‍💻 About
+- Personal journey story
+- Education history (Elementary → College)
+- Career goals and aspirations
+- Development timeline (2022-2026)
 
-- Personal journey and life story
-- Complete education timeline (Elementary → College)
-- Career aspirations and goals
-- Development journey (2022-2026)
+#### 📊 Skills
+**Programming Languages:**
+- Python (40%) • JavaScript (25%) • C++ (30%) • C (30%)
+- HTML (70%) • CSS (75%) • MySQL (50%)
 
-### 📊 *Skills*
-> *Tools of the trade*
+**Creative Arts:**
+- Calligraphy: Name Tags, Bookmarks, Quote Art, Greeting Cards
+- Crochet: Keychains, Hair Accessories, Bags, Custom Gifts
 
-**💻 Programming Languages**
-Python ████████░░ 40%
-JavaScript █████░░░░░ 25%
-C++ ██████░░░░ 30%
-C ██████░░░░ 30%
-HTML ██████████ 70%
-CSS ██████████ 75%
-MySQL █████░░░░░ 50%
+#### 📁 Projects
+| Project | Technologies |
+|---------|--------------|
+| Hotel Management System | Python, File I/O |
+| Math Game | Mobile Development |
+| Store Management System | MS Access, SQL |
+| Photobooth Web App | HTML, CSS, JavaScript |
 
-text
-
-**🎨 Creative Arts**
-- ✍️ Calligraphy: Name Tags • Bookmarks • Quote Art • Greeting Cards
-- 🧶 Crochet: Keychains • Hair Accessories • Bags • Custom Gifts
-
-### 📁 *Projects*
-> *Code that came to life*
-
-| Project | Tech Stack | Highlights |
-|:-------:|:----------:|------------|
-| 🏨 **Hotel Management System** | Python | Booking • Check-in/out • Customer records |
-| 🎮 **Math Game** | Mobile Dev | Progressive difficulty • Rewards • Trivia |
-| 🏪 **Store Management System** | MS Access, SQL | Inventory • Sales • Customer database |
-| 📸 **Photobooth Web App** | HTML, CSS, JS | Real-time filters • Customization • Save |
-
-### 📜 *Certificates*
-> *Proof of dedication*
-
+#### 📜 Certificates
 | Certificate | Category |
-|:-----------:|:--------:|
-| 🎨 CSS Essentials | Web Development |
-| 🐍 Python Essential 1 | Python |
-| 🤖 Introduction to AI | Artificial Intelligence |
-| 🔒 Intro to Cyber Security | Security |
-| 🐍 Python for Beginners | Python |
-| 🌐 Python Django 101 | Python/Django |
+|-------------|----------|
+| CSS Essentials | Web Development |
+| Python Essential 1 | Python |
+| Introduction to AI | Artificial Intelligence |
+| Intro to Cyber Security | Security |
+| Python for Beginners | Python |
+| Python Django 101 | Python/Django |
 
-### 📞 *Contact*
-> *Let's connect*
+#### 📞 Contact
+- Contact form with validation
+- Social media links (GitHub, Facebook)
+- Email contact
+- FAQ section
 
-- ✉️ Contact form with validation
-- 🛸 UFO animation on successful submission
-- 🔗 Social media links (GitHub, Facebook)
-- 💬 Honest FAQ section
-
-### ✨ *Stargazing*
-> *A cosmic escape*
-
-- 🌠 **10 Celestial Objects** to explore
-- 🎨 **Animated SVG representations** for each
-- 🎵 **6 Ambient music tracks** for relaxation
-- 📖 **Fascinating space facts** about stars, moon, galaxies, and planets
+#### ✨ Stargazing
+- 10 celestial objects to explore
+- Animated SVG representations
+- 6 ambient music tracks
+- Space facts about stars, moon, galaxies, planets
 
 ---
 
-## 🛠️ *Technology Constellation*
+## 🛠️ Technologies Used
 
-<div align="center">
-
-| 🐍 | 📦 | 🎨 | 🌐 | 🧪 |
-|:---:|:---:|:---:|:---:|:---:|
-| **Python** | **Streamlit** | **Pillow** | **HTML/CSS** | **SVG** |
-| 3.9+ | 1.28+ | 9.0+ | Custom | Animations |
-
-</div>
+| Technology | Version | Purpose |
+|------------|---------|---------|
+| Python | 3.9+ | Backend logic |
+| Streamlit | 1.28+ | Web framework |
+| Pillow (PIL) | 9.0+ | Image processing |
+| Base64 | Built-in | Image encoding |
+| HTML/CSS | - | Styling and animations |
+| SVG | - | Animated graphics |
+| Git/GitHub | - | Version control |
 
 ---
 
-## 📁 *Galaxy Structure*
-🌌 portfolio_app/
+## 📁 Project Structure
+portfolio_app/
 │
-├── 🏠 Home.py # The gateway
-├── 📦 requirements.txt # Dependencies
-├── 📖 README.md # You are here
+├── Home.py # Main entry point
+├── requirements.txt # Dependencies
+├── README.md # Documentation
 │
-├── 🖼️ images/ # Visual treasures
-│ ├── 📸 ID.png # Profile photo
-│ ├── 📂 projects/ # Project screenshots
-│ ├── 📂 certificates/ # Certificate images
-│ └── 📂 creative/ # Calligraphy & crochet
+├── images/ # Image assets
+│ ├── ID.png # Profile photo
+│ ├── HMS.jpg # Hotel project
+│ ├── math_game.jpg # Math Game project
+│ ├── SMS.jpg # Store project
+│ ├── photbooth.jpg # Photobooth project
+│ ├── Cisco_CSS.png # CSS certificate
+│ ├── Cisco_py.png # Python cert 1
+│ ├── intro_to_AI.png # AI certificate
+│ ├── Cyber_sec.png # Security cert
+│ ├── python.png # Python cert 2
+│ ├── django.png # Django cert
+│ ├── name_tag.png # Calligraphy
+│ ├── bookmark.jpg # Calligraphy
+│ ├── quote.jpg # Calligraphy
+│ ├── greeting.jpg # Calligraphy
+│ ├── keychain.jpg # Crochet
+│ ├── hair_acc.jpg # Crochet
+│ ├── bag.jpg # Crochet
+│ └── custom_gift.jpg # Crochet
 │
-└── 📚 pages/ # The cosmic library
-├── 📄 2_👩‍💻_About.py
-├── 📄 3_📊_Skills.py
-├── 📄 4_📁_Projects.py
-├── 📄 5_📜_Certificates.py
-├── 📄 6_📞_Contact.py
-└── 📄 7_✨_Stargazing.py
+└── pages/ # Page files
+├── 2_👩‍💻_About.py
+├── 3_📊_Skills.py
+├── 4_📁_Projects.py
+├── 5_📜_Certificates.py
+├── 6_📞_Contact.py
+└── 7_✨_Stargazing.py
 
 text
 
 ---
 
-## 🚀 *Launch Instructions*
+## 🚀 Installation
 
-### *Prerequisites*
+### Prerequisites
+- Python 3.9 or higher
+- pip package manager
 
+### Step 1: Clone Repository
 ```bash
-🐍 Python 3.9+
-📦 pip package manager
-Step-by-Step Launch
-bash
-# 1️⃣ Clone the repository
 git clone https://github.com/Banculochristinemae/portfolio_app.git
 cd portfolio_app
-
-# 2️⃣ Create a virtual universe (optional)
+Step 2: Create Virtual Environment (Optional)
+bash
+# Windows
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+venv\Scripts\activate
 
-# 3️⃣ Install the stars
+# Mac/Linux
+python3 -m venv venv
+source venv/bin/activate
+Step 3: Install Dependencies
+bash
 pip install -r requirements.txt
+Step 4: Add Images
+Place your images in the images/ folder (see Image Requirements below)
 
-# 4️⃣ Add your personal touch
-# Place your images in the images/ folder
-
-# 5️⃣ Ignite the engine
+Step 5: Run Application
+bash
 streamlit run Home.py
+Step 6: Open Browser
+The app will open at http://localhost:8501
 
-# 6️⃣ Watch it come alive at http://localhost:8501
-Dependencies
+requirements.txt
 txt
 streamlit>=1.28.0
 pillow>=9.0.0
 🖼️ Image Requirements
 Profile Photo
-text
-📁 images/ID.png
-Project Gallery
-Project	Filename
-Hotel Management	HMS.jpg
-Math Game	math_game.jpg
-Store Management	SMS.jpg
-Photobooth	photbooth.jpg
-Certificate Collection
-Certificate	Filename
-CSS Essentials	Cisco_CSS.png
-Python Essential 1	Cisco_py.png
-Introduction to AI	intro_to_AI.png
-Cyber Security	Cyber_sec.png
-Python for Beginners	python.png
-Python Django 101	django.png
-Creative Portfolio
-Item	Filename
-Name Tags	name_tag.png
-Bookmarks	bookmark.jpg
-Quote Art	quote.jpg
-Greeting Cards	greeting.jpg
-Keychains	keychain.jpg
-Hair Accessories	hair_acc.jpg
-Bags	bag.jpg
-Custom Gifts	custom_gift.jpg
-🎨 Customize Your Galaxy
-Change the Cosmic Colors
+Property	Value
+Filename	ID.png
+Location	images/ID.png
+Format	PNG
+Size	Any (cropped to 320x320 circle)
+Project Images
+Project	Filename	Location
+Hotel Management	HMS.jpg	images/HMS.jpg
+Math Game	math_game.jpg	images/math_game.jpg
+Store Management	SMS.jpg	images/SMS.jpg
+Photobooth	photbooth.jpg	images/photbooth.jpg
+Certificate Images
+Certificate	Filename	Location
+CSS Essentials	Cisco_CSS.png	images/Cisco_CSS.png
+Python Essential 1	Cisco_py.png	images/Cisco_py.png
+Introduction to AI	intro_to_AI.png	images/intro_to_AI.png
+Cyber Security	Cyber_sec.png	images/Cyber_sec.png
+Python for Beginners	python.png	images/python.png
+Python Django 101	django.png	images/django.png
+Creative Images
+Item	Filename	Location
+Name Tags	name_tag.png	images/name_tag.png
+Bookmarks	bookmark.jpg	images/bookmark.jpg
+Quote Art	quote.jpg	images/quote.jpg
+Greeting Cards	greeting.jpg	images/greeting.jpg
+Keychains	keychain.jpg	images/keychain.jpg
+Hair Accessories	hair_acc.jpg	images/hair_acc.jpg
+Bags	bag.jpg	images/bag.jpg
+Custom Gifts	custom_gift.jpg	images/custom_gift.jpg
+🎯 How to Use
+Navigation
+Use the sidebar to navigate between all 7 pages.
+
+Home Page
+View profile photo and welcome message
+
+See quick statistics
+
+About Page
+Read personal story
+
+View education timeline
+
+See career goals
+
+Skills Page
+View programming proficiency (progress bars)
+
+Explore calligraphy and crochet images
+
+Projects Page
+Click "View Details" to see full description
+
+Rate projects (1-5 stars)
+
+Certificates Page
+Click "View Certificate" to see full-size image
+
+Browse certification details
+
+Contact Page
+Fill out the form
+
+Watch UFOs fly across screen on success
+
+Stargazing Page
+Click celestial objects for animated SVG
+
+Play space music
+
+Read space facts
+
+🎨 Customization
+Change Colors
 css
 /* Edit in each page's <style> section */
 background: radial-gradient(ellipse at center, #0a0f2a 0%, #060914 100%);
-Add a New Star (Skill)
+Add New Skill
 python
 # In pages/3_📊_Skills.py
 new_item = {"icon": "✨", "title": "New Skill", "desc": "Description", "img": "images/new.jpg"}
-Launch a New Project
+Add New Project
 python
-# In pages/4_📁_Projects.py - follow the pattern
-# Add your project with image, description, and technologies
-Earn a New Certificate
+# In pages/4_📁_Projects.py - follow existing pattern
+Update Certificates
 python
-# In pages/5_📜_Certificates.py - add to certificates_data list
-{"img": "images/new_cert.png", "icon": "📜", "title": "New Certificate", "type": "Category", "desc": "Description"}
-☁️ Deploy to the Cloud
-Streamlit Community Cloud Deployment
-bash
-# 1️⃣ Push to GitHub
-git add .
-git commit -m "Ready for launch"
-git push origin main
+# In pages/5_📜_Certificates.py - add to certificates_data
+{"img": "images/new.png", "icon": "📜", "title": "New Cert", "type": "Category", "desc": "Description"}
+☁️ Deployment
+Streamlit Community Cloud
+Push code to GitHub
 
-# 2️⃣ Go to share.streamlit.io
-# 3️⃣ Connect your GitHub
-# 4️⃣ Select repository and branch
-# 5️⃣ Set main file to Home.py
-# 6️⃣ Click Deploy 🚀
-Your app will live at:
+bash
+git add .
+git commit -m "Initial commit"
+git push origin main
+Go to share.streamlit.io
+
+Click "New app"
+
+Connect GitHub repository
+
+Select branch and main file (Home.py)
+
+Click "Deploy"
+
+Live URL
 text
 https://your-app-name.streamlit.app
 🔧 Troubleshooting
-🚨 Issue	💡 Solution
-Images not showing	Check paths in images/ folder • Verify filenames
-Music won't play	Click play manually • Check internet connection
-UFOs not flying	Enable JavaScript • Submit valid form first
+Issue	Solution
+Images not showing	Check paths in images/ folder • Verify filenames are case-sensitive
+Music won't play	Click play button manually • Check internet connection
+UFO animation not showing	Enable JavaScript • Submit valid form first
 Streamlit not found	Run pip install streamlit • Activate virtual environment
-📬 Connect With Me
+Page not loading	Ensure all files are in correct structure
+📬 Contact
+Platform	Details
+Email	christinemaebanculo45@gmail.com
+GitHub	@Banculochristinemae
+Facebook	Creative Page
+🙏 Acknowledgments
+Source	Contribution
+DEBESMSCAT	Education and support
+Streamlit	Web framework
+SoundHelix	Royalty-free music
+NASA & Wikimedia	Celestial images
+📄 License
+This project is for personal portfolio purposes. All rights reserved.
+
+💫 Quote
 <div align="center">
-📧	🐙	📘
-Email	GitHub	Facebook
-christinemaebanculo45@gmail.com	@Banculochristinemae	Creative Page
-</div>
-🙏 Gratitude
-🌟	Thank You To
-🏫	DEBESMSCAT - For the education and support
-🚀	Streamlit - For the amazing framework
-🎵	SoundHelix - For royalty-free music
-🌌	NASA & Wikimedia - For celestial images
-💫 Final Words
-<div align="center">
-"We are made of star-stuff. We are a way for the universe to know itself."
-— Carl Sagan
+"The stars are the limit when you code with passion."
+— Christine Mae Banculo
 
-✨ Thank you for visiting my galaxy ✨
+⭐ If you like this project, please give it a star on GitHub! ⭐
 
-Created with 💜, code, and cosmic energy by Christine Mae C. Banculo
+Created with 💜 by Christine Mae C. Banculo using Python and Streamlit
 
-⭐ If you like this project, give it a star on GitHub! ⭐
-
-</div> ```
+</div> ``
