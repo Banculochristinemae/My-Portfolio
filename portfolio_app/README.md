@@ -211,6 +211,7 @@ portfolio_app/
     ├── 5_📜_Certificates.py
     ├── 6_📞_Contact.py
     └── 7_✨_Stargazing.py
+
 🚀 Installation
 Prerequisites
 Python 3.9 or higher
