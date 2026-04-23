@@ -390,6 +390,6 @@ This project is for personal portfolio purposes. All rights reserved.
 
 Created with 💜 by Christine Mae C. Banculo using Python and Streamlit
 
-</div> ```
+</div>
 
 </div> ```
