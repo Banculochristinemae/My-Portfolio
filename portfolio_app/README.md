@@ -175,43 +175,43 @@
 ---
 
 ## 📁 Project Structure
-```text
-
 portfolio_app/
 │
-├── Home.py                          # Main entry point
-├── requirements.txt                 # Dependencies
-├── README.md                        # Documentation
+├── Home.py # Main entry point
+├── requirements.txt # Dependencies
+├── README.md # Documentation
 │
-├── images/                          # Image assets
-│   ├── ID.png                       # Profile photo
-│   ├── HMS.jpg                      # Hotel project
-│   ├── math_game.jpg                # Math Game project
-│   ├── SMS.jpg                      # Store project
-│   ├── photbooth.jpg                # Photobooth project
-│   ├── Cisco_CSS.png                # CSS certificate
-│   ├── Cisco_py.png                 # Python cert 1
-│   ├── intro_to_AI.png              # AI certificate
-│   ├── Cyber_sec.png                # Security cert
-│   ├── python.png                   # Python cert 2
-│   ├── django.png                   # Django cert
-│   ├── name_tag.png                 # Calligraphy
-│   ├── bookmark.jpg                 # Calligraphy
-│   ├── quote.jpg                    # Calligraphy
-│   ├── greeting.jpg                 # Calligraphy
-│   ├── keychain.jpg                 # Crochet
-│   ├── hair_acc.jpg                 # Crochet
-│   ├── bag.jpg                      # Crochet
-│   └── custom_gift.jpg              # Crochet
+├── images/ # Image assets
+│ ├── ID.png # Profile photo
+│ ├── HMS.jpg # Hotel project
+│ ├── math_game.jpg # Math Game project
+│ ├── SMS.jpg # Store project
+│ ├── photbooth.jpg # Photobooth project
+│ ├── Cisco_CSS.png # CSS certificate
+│ ├── Cisco_py.png # Python cert 1
+│ ├── intro_to_AI.png # AI certificate
+│ ├── Cyber_sec.png # Security cert
+│ ├── python.png # Python cert 2
+│ ├── django.png # Django cert
+│ ├── name_tag.png # Calligraphy
+│ ├── bookmark.jpg # Calligraphy
+│ ├── quote.jpg # Calligraphy
+│ ├── greeting.jpg # Calligraphy
+│ ├── keychain.jpg # Crochet
+│ ├── hair_acc.jpg # Crochet
+│ ├── bag.jpg # Crochet
+│ └── custom_gift.jpg # Crochet
 │
-└── pages/                           # Page files
-    ├── 2_👩‍💻_About.py
-    ├── 3_📊_Skills.py
-    ├── 4_📁_Projects.py
-    ├── 5_📜_Certificates.py
-    ├── 6_📞_Contact.py
-    └── 7_✨_Stargazing.py
-```
+└── pages/ # Page files
+├── 2_👩‍💻_About.py
+├── 3_📊_Skills.py
+├── 4_📁_Projects.py
+├── 5_📜_Certificates.py
+├── 6_📞_Contact.py
+└── 7_✨_Stargazing.py
+
+text
+
 ---
 
 ## 🚀 Installation
@@ -389,7 +389,5 @@ This project is for personal portfolio purposes. All rights reserved.
 ⭐ If you like this project, please give it a star on GitHub! ⭐
 
 Created with 💜 by Christine Mae C. Banculo using Python and Streamlit
-
-</div>
 
 </div> ```
