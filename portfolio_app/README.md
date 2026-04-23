@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌌 Galaxy Portfolio
+# 🌌 My Portfolio
 
 ### ✨ *Christine Mae C. Banculo*
 
