@@ -176,7 +176,7 @@
 
 ## 📁 Project Structure
 
-```text
+
 portfolio_app/
 │
 ├── Home.py                          # Main entry point
