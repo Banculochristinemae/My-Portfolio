@@ -49,7 +49,7 @@
 
 # 🌌 About the Project
 
-**Galaxy Portfolio** is a multi-page interactive portfolio built using **Python** and **Streamlit**.
+**My Portfolio** is a multi-page interactive portfolio built using **Python** and **Streamlit**.
 It highlights academic achievements, technical skills, completed projects, and creative works such as calligraphy and crochet.
 
 This portfolio demonstrates:
