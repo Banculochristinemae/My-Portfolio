@@ -175,6 +175,7 @@
 ---
 
 ## 📁 Project Structure
+```text
 portfolio_app/
 │
 ├── Home.py # Main entry point
@@ -210,8 +211,7 @@ portfolio_app/
 ├── 6_📞_Contact.py
 └── 7_✨_Stargazing.py
 
-text
-
+```
 ---
 
 ## 🚀 Installation
@@ -221,11 +221,11 @@ text
 - pip package manager
 
 ### Step 1: Clone Repository
-```bash
+
 git clone https://github.com/Banculochristinemae/portfolio_app.git
 cd portfolio_app
 Step 2: Create Virtual Environment (Optional)
-bash
+
 # Windows
 python -m venv venv
 venv\Scripts\activate
@@ -234,13 +234,13 @@ venv\Scripts\activate
 python3 -m venv venv
 source venv/bin/activate
 Step 3: Install Dependencies
-bash
+
 pip install -r requirements.txt
 Step 4: Add Images
 Place your images in the images/ folder (see Image Requirements below)
 
 Step 5: Run Application
-bash
+
 streamlit run Home.py
 Step 6: Open Browser
 The app will open at http://localhost:8501
@@ -330,10 +330,12 @@ css
 background: radial-gradient(ellipse at center, #0a0f2a 0%, #060914 100%);
 Add New Skill
 python
+
 # In pages/3_📊_Skills.py
 new_item = {"icon": "✨", "title": "New Skill", "desc": "Description", "img": "images/new.jpg"}
 Add New Project
 python
+
 # In pages/4_📁_Projects.py - follow existing pattern
 Update Certificates
 python
@@ -343,7 +345,6 @@ python
 Streamlit Community Cloud
 Push code to GitHub
 
-bash
 git add .
 git commit -m "Initial commit"
 git push origin main
@@ -390,4 +391,4 @@ This project is for personal portfolio purposes. All rights reserved.
 
 Created with 💜 by Christine Mae C. Banculo
 
-</div> ```
+</div>
