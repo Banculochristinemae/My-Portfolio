@@ -1,4 +1,3 @@
-markdown
 <div align="center">
 
 # 🌌 Galaxy Portfolio
@@ -176,42 +175,77 @@ markdown
 ---
 
 ## 📁 Project Structure
-portfolio_app/
+📁 portfolio_app/
 │
-├── Home.py # Main entry point
-├── requirements.txt # Dependencies
-├── README.md # Documentation
+├── 📄 Home.py # 🏠 Main entry point / Home page
+├── 📄 requirements.txt # 📦 Python dependencies
+├── 📄 README.md # 📖 Documentation
 │
-├── images/ # Image assets
-│ ├── ID.png # Profile photo
-│ ├── HMS.jpg # Hotel project
-│ ├── math_game.jpg # Math Game project
-│ ├── SMS.jpg # Store project
-│ ├── photbooth.jpg # Photobooth project
-│ ├── Cisco_CSS.png # CSS certificate
-│ ├── Cisco_py.png # Python cert 1
-│ ├── intro_to_AI.png # AI certificate
-│ ├── Cyber_sec.png # Security cert
-│ ├── python.png # Python cert 2
-│ ├── django.png # Django cert
-│ ├── name_tag.png # Calligraphy
-│ ├── bookmark.jpg # Calligraphy
-│ ├── quote.jpg # Calligraphy
-│ ├── greeting.jpg # Calligraphy
-│ ├── keychain.jpg # Crochet
-│ ├── hair_acc.jpg # Crochet
-│ ├── bag.jpg # Crochet
-│ └── custom_gift.jpg # Crochet
+├── 📁 images/ # 🖼️ All image assets
+│ │
+│ ├── 📁 profile/ # 👤 Profile photos
+│ │ └── 🖼️ ID.png # Profile picture
+│ │
+│ ├── 📁 projects/ # 💻 Project screenshots
+│ │ ├── 🖼️ HMS.jpg # Hotel Management System
+│ │ ├── 🖼️ math_game.jpg # Math Game
+│ │ ├── 🖼️ SMS.jpg # Store Management System
+│ │ └── 🖼️ photbooth.jpg # Photobooth Web App
+│ │
+│ ├── 📁 certificates/ # 📜 Certificate images
+│ │ ├── 🖼️ Cisco_CSS.png # CSS Essentials
+│ │ ├── 🖼️ Cisco_py.png # Python Essential 1
+│ │ ├── 🖼️ intro_to_AI.png # Introduction to AI
+│ │ ├── 🖼️ Cyber_sec.png # Cyber Security
+│ │ ├── 🖼️ python.png # Python for Beginners
+│ │ └── 🖼️ django.png # Python Django 101
+│ │
+│ └── 📁 creative/ # 🎨 Creative work images
+│ ├── 📁 calligraphy/ # ✍️ Calligraphy
+│ │ ├── 🖼️ name_tag.png
+│ │ ├── 🖼️ bookmark.jpg
+│ │ ├── 🖼️ quote.jpg
+│ │ └── 🖼️ greeting.jpg
+│ │
+│ └── 📁 crochet/ # 🧶 Crochet
+│ ├── 🖼️ keychain.jpg
+│ ├── 🖼️ hair_acc.jpg
+│ ├── 🖼️ bag.jpg
+│ └── 🖼️ custom_gift.jpg
 │
-└── pages/ # Page files
-├── 2_👩‍💻_About.py
-├── 3_📊_Skills.py
-├── 4_📁_Projects.py
-├── 5_📜_Certificates.py
-├── 6_📞_Contact.py
-└── 7_✨_Stargazing.py
+└── 📁 pages/ # 📚 Multi-page application
+│
+├── 📄 1_🏠_Home.py # 🏠 Home page
+├── 📄 2_👩‍💻_About.py # 👩‍💻 About Me page
+├── 📄 3_📊_Skills.py # 📊 Skills page
+├── 📄 4_📁_Projects.py # 📁 Projects page
+├── 📄 5_📜_Certificates.py # 📜 Certificates page
+├── 📄 6_📞_Contact.py # 📞 Contact page
+└── 📄 7_✨_Stargazing.py # ✨ Stargazing page
 
 text
+
+### Structure Legend
+
+| Icon | Meaning |
+|------|---------|
+| 📁 | Folder |
+| 📄 | File |
+| 🖼️ | Image |
+| 🏠 | Home page |
+| 👩‍💻 | About page |
+| 📊 | Skills page |
+| 📁 | Projects page |
+| 📜 | Certificates page |
+| 📞 | Contact page |
+| ✨ | Stargazing page |
+| 👤 | Profile |
+| 💻 | Projects |
+| 🎨 | Creative |
+| ✍️ | Calligraphy |
+| 🧶 | Crochet |
+| 📦 | Dependencies |
+| 📖 | Documentation |
 
 ---
 
@@ -238,7 +272,7 @@ Step 3: Install Dependencies
 bash
 pip install -r requirements.txt
 Step 4: Add Images
-Place your images in the images/ folder (see Image Requirements below)
+Place your images in the images/ folder according to the structure above
 
 Step 5: Run Application
 bash
@@ -254,33 +288,33 @@ pillow>=9.0.0
 Profile Photo
 Property	Value
 Filename	ID.png
-Location	images/ID.png
+Location	images/profile/ID.png
 Format	PNG
 Size	Any (cropped to 320x320 circle)
 Project Images
 Project	Filename	Location
-Hotel Management	HMS.jpg	images/HMS.jpg
-Math Game	math_game.jpg	images/math_game.jpg
-Store Management	SMS.jpg	images/SMS.jpg
-Photobooth	photbooth.jpg	images/photbooth.jpg
+Hotel Management	HMS.jpg	images/projects/HMS.jpg
+Math Game	math_game.jpg	images/projects/math_game.jpg
+Store Management	SMS.jpg	images/projects/SMS.jpg
+Photobooth	photbooth.jpg	images/projects/photbooth.jpg
 Certificate Images
 Certificate	Filename	Location
-CSS Essentials	Cisco_CSS.png	images/Cisco_CSS.png
-Python Essential 1	Cisco_py.png	images/Cisco_py.png
-Introduction to AI	intro_to_AI.png	images/intro_to_AI.png
-Cyber Security	Cyber_sec.png	images/Cyber_sec.png
-Python for Beginners	python.png	images/python.png
-Python Django 101	django.png	images/django.png
+CSS Essentials	Cisco_CSS.png	images/certificates/Cisco_CSS.png
+Python Essential 1	Cisco_py.png	images/certificates/Cisco_py.png
+Introduction to AI	intro_to_AI.png	images/certificates/intro_to_AI.png
+Cyber Security	Cyber_sec.png	images/certificates/Cyber_sec.png
+Python for Beginners	python.png	images/certificates/python.png
+Python Django 101	django.png	images/certificates/django.png
 Creative Images
-Item	Filename	Location
-Name Tags	name_tag.png	images/name_tag.png
-Bookmarks	bookmark.jpg	images/bookmark.jpg
-Quote Art	quote.jpg	images/quote.jpg
-Greeting Cards	greeting.jpg	images/greeting.jpg
-Keychains	keychain.jpg	images/keychain.jpg
-Hair Accessories	hair_acc.jpg	images/hair_acc.jpg
-Bags	bag.jpg	images/bag.jpg
-Custom Gifts	custom_gift.jpg	images/custom_gift.jpg
+Category	Item	Filename	Location
+Calligraphy	Name Tags	name_tag.png	images/creative/calligraphy/name_tag.png
+Calligraphy	Bookmarks	bookmark.jpg	images/creative/calligraphy/bookmark.jpg
+Calligraphy	Quote Art	quote.jpg	images/creative/calligraphy/quote.jpg
+Calligraphy	Greeting Cards	greeting.jpg	images/creative/calligraphy/greeting.jpg
+Crochet	Keychains	keychain.jpg	images/creative/crochet/keychain.jpg
+Crochet	Hair Accessories	hair_acc.jpg	images/creative/crochet/hair_acc.jpg
+Crochet	Bags	bag.jpg	images/creative/crochet/bag.jpg
+Crochet	Custom Gifts	custom_gift.jpg	images/creative/crochet/custom_gift.jpg
 🎯 How to Use
 Navigation
 Use the sidebar to navigate between all 7 pages.
@@ -332,14 +366,14 @@ background: radial-gradient(ellipse at center, #0a0f2a 0%, #060914 100%);
 Add New Skill
 python
 # In pages/3_📊_Skills.py
-new_item = {"icon": "✨", "title": "New Skill", "desc": "Description", "img": "images/new.jpg"}
+new_item = {"icon": "✨", "title": "New Skill", "desc": "Description", "img": "images/creative/category/new.jpg"}
 Add New Project
 python
 # In pages/4_📁_Projects.py - follow existing pattern
 Update Certificates
 python
 # In pages/5_📜_Certificates.py - add to certificates_data
-{"img": "images/new.png", "icon": "📜", "title": "New Cert", "type": "Category", "desc": "Description"}
+{"img": "images/certificates/new.png", "icon": "📜", "title": "New Cert", "type": "Category", "desc": "Description"}
 ☁️ Deployment
 Streamlit Community Cloud
 Push code to GitHub
@@ -391,4 +425,4 @@ This project is for personal portfolio purposes. All rights reserved.
 
 Created with 💜 by Christine Mae C. Banculo using Python and Streamlit
 
-</div> ``
+</div> ```
