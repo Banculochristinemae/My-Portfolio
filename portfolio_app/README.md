@@ -214,14 +214,14 @@ portfolio_app/
 
 ---
 
-🚀 Installation
-Prerequisites
-Python 3.9 or higher
+## 🚀 Installation
 
-pip package manager
+### Prerequisites
+- Python 3.9 or higher
+- pip package manager
 
-Step 1: Clone Repository
-bash
+### Step 1: Clone Repository
+```bash
 git clone https://github.com/Banculochristinemae/portfolio_app.git
 cd portfolio_app
 Step 2: Create Virtual Environment (Optional)
@@ -389,5 +389,7 @@ This project is for personal portfolio purposes. All rights reserved.
 ⭐ If you like this project, please give it a star on GitHub! ⭐
 
 Created with 💜 by Christine Mae C. Banculo using Python and Streamlit
+
+</div> ```
 
 </div> ```
