@@ -1,222 +1,413 @@
 <div align="center">
 
-# 🌌 My Portfolio  
+# 🌌 Galaxy Portfolio  
 ### *Christine Mae C. Banculo*
 
-<p>
-  <a href="https://your-app-url.streamlit.app">
-    <img src="https://img.shields.io/badge/LIVE_DEMO-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
-  </a>
-  <a href="https://github.com/Banculochristinemae/portfolio_app">
-    <img src="https://img.shields.io/badge/SOURCE_CODE-GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-  <img src="https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Streamlit-1.28+-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
-</p>
+[![Streamlit App](https://img.shields.io/badge/LIVE_DEMO-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://your-app-url.streamlit.app)
+[![GitHub](https://img.shields.io/badge/SOURCE_CODE-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Banculochristinemae/portfolio_app)
+[![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
 
 </div>
 
 ---
 
-## 📋 Table of Contents
-- 📝 Repository Description  
-- 📌 Overview  
-- ✨ Features  
-- 📄 Pages  
-- 🛠️ Technologies Used  
-- 📁 Project Structure  
-- 🚀 Installation  
-- 🖼️ Image Requirements  
-- 🎯 How to Use  
-- 🎨 Customization  
-- ☁️ Deployment  
-- 🔧 Troubleshooting  
-- 📬 Contact  
-- 🙏 Acknowledgments  
-- 📄 License  
+# 📋 Table of Contents
+
+- Repository Description  
+- Overview  
+- Features  
+- Pages  
+- Technologies Used  
+- Project Structure  
+- Installation  
+- Image Requirements  
+- How to Use  
+- Customization  
+- Deployment  
+- Troubleshooting  
+- Contact  
+- Acknowledgments  
+- License  
 
 ---
 
-## 📝 Repository Description
+# 📝 Repository Description
 
-| Property | Details |
-|----------|--------|
+| Property | Value |
+|----------|------|
 | **Repository Name** | `portfolio_app` |
 | **Owner** | Christine Mae C. Banculo |
-| **Purpose** | Personal portfolio showcasing projects, skills, and creativity |
+| **Purpose** | Personal portfolio website showcasing skills, projects, certificates, and creative work |
 | **Tech Stack** | Python, Streamlit, HTML/CSS, SVG, Pillow |
-| **Pages** | 7 Interactive Pages |
-| **Theme** | Galaxy UI with animations |
+| **Pages** | 7 interactive pages |
+| **Theme** | Galaxy-themed with gradients and animations |
 | **Status** | 🟢 Live |
+
+## Key Features
+
+- ✅ 7 Fully Functional Pages  
+- ✅ Interactive Animations (UFO, celestial objects)  
+- ✅ Real-time Music Player  
+- ✅ Click-to-Enlarge Images  
+- ✅ Responsive Design  
+- ✅ Contact Form with Validation  
+- ✅ Progress Bars  
+- ✅ Project Rating System  
 
 ---
 
-## 📌 Overview
+# 📌 Overview
 
-Galaxy Portfolio is a modern, interactive portfolio designed to showcase both **technical skills** and **creative work**.
+**Galaxy Portfolio** is an interactive, multi-page portfolio website built using **Streamlit** that showcases the journey, skills, projects, and creative work of **Christine Mae C. Banculo**, a third-year Computer Science student.
 
-### 🎯 Purpose
+## Purpose
 
 | Area | Description |
 |------|------------|
-| 🎓 Academic | Highlight projects and certifications |
-| 💼 Professional | Demonstrate development skills |
-| 🎨 Creative | Showcase calligraphy & crochet |
-| 🌌 Experience | Provide interactive UI with animations |
+| 🎓 Academic | Showcase programming projects and certifications |
+| 💼 Professional | Demonstrate technical skills and web development abilities |
+| 🎨 Creative | Share calligraphy and crochet artwork |
+| 🌌 Experience | Provide a relaxing stargazing corner with music |
 
 ---
 
-## ✨ Features
+# ✨ Features
 
-### 🎨 Design & UI
-- 🌠 Galaxy animated background with gradients  
-- 🔮 Glassmorphism (blur + glow effects)  
-- 📱 Fully responsive design  
-- 🧭 Sidebar navigation system  
-- ✨ Smooth hover interactions  
+## Design and User Interface
 
-### ⚡ Interactive Elements
-- 🖼️ Click-to-enlarge images  
-- 🪐 Animated SVG objects  
-- 🎵 Built-in ambient music player  
-- 🛸 UFO animation on form submission  
-- 📊 Skill progress bars  
-- ⭐ Project rating system  
+| Feature | Description |
+|--------|-------------|
+| 🌠 Galaxy Background | Radial gradients with twinkling star animations |
+| 🔮 Glassmorphism | Frosted glass effects with blur and glow |
+| 📱 Responsive Design | Works on desktop, tablet, and mobile |
+| 🧭 Custom Sidebar | Navigation across all pages |
+| ✨ Hover Effects | Interactive feedback on clickable elements |
+
+## Interactive Elements
+
+| Feature | Description |
+|--------|-------------|
+| 🖼️ Click-to-Enlarge | View certificates and projects in full size |
+| 🪐 Animated Objects | SVG animations of celestial objects |
+| 🎵 Music Player | Relaxing space ambient tracks |
+| 🛸 UFO Animation | Flying animation after form submission |
+| 📊 Progress Bars | Visual skill indicators |
+| ⭐ Rating System | Rate projects from 1 to 5 stars |
 
 ---
 
-## 📄 Pages Overview
+# 📄 Pages
 
 | # | Page | Description |
 |---|------|------------|
-| 1 | 🏠 Home | Profile intro and quick stats |
-| 2 | 👩‍💻 About | Background, journey, goals |
-| 3 | 📊 Skills | Technical + creative skills |
-| 4 | 📁 Projects | Portfolio projects |
-| 5 | 📜 Certificates | Certifications showcase |
-| 6 | 📞 Contact | Contact form |
-| 7 | ✨ Stargazing | Interactive space experience |
+| 1 | Home | Welcome section with profile and statistics |
+| 2 | About | Personal background and education |
+| 3 | Skills | Technical and creative skills |
+| 4 | Projects | Portfolio of completed projects |
+| 5 | Certificates | Professional certifications |
+| 6 | Contact | Contact form and social links |
+| 7 | Stargazing | Space-themed interactive section |
 
 ---
 
-## 🛠️ Technologies Used
+# 🛠️ Technologies Used
 
-| Technology | Purpose |
-|------------|--------|
-| Python | Core programming |
-| Streamlit | Web framework |
-| Pillow | Image handling |
-| HTML/CSS | UI styling |
-| SVG | Animations |
+| Technology | Version | Purpose |
+|-----------|--------|--------|
+| Python | 3.9+ | Backend logic |
+| Streamlit | 1.28+ | Web framework |
+| Pillow (PIL) | 9.0+ | Image processing |
+| HTML/CSS | — | Styling and layout |
+| SVG | — | Animations |
+| GitHub | — | Version control |
 
 ---
 
-## 📁 Project Structure
+# 📁 Project Structure
 
-```
+```text
 portfolio_app/
-│
+
 ├── Home.py
 ├── requirements.txt
 ├── README.md
-│
+
 ├── images/
-│   ├── (projects, certificates, creative works)
-│
+│   ├── ID.png
+│   ├── HMS.jpg
+│   ├── math_game.jpg
+│   ├── SMS.jpg
+│   ├── photbooth.jpg
+│   ├── Cisco_CSS.png
+│   ├── Cisco_py.png
+│   ├── intro_to_AI.png
+│   ├── Cyber_sec.png
+│   ├── python.png
+│   ├── django.png
+
 └── pages/
     ├── About.py
     ├── Skills.py
     ├── Projects.py
     ├── Certificates.py
     ├── Contact.py
-    └── Stargazing.py
+    ├── Stargazing.py
 ```
 
 ---
 
-## 🚀 Installation
+# 🚀 Installation
+
+## Prerequisites
+
+- Python 3.9 or higher  
+- pip package manager  
+
+---
+
+## Step 1 — Clone Repository
 
 ```bash
 git clone https://github.com/Banculochristinemae/portfolio_app.git
 cd portfolio_app
+```
+
+---
+
+## Step 2 — Create Virtual Environment (Optional)
+
+### Windows
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+### Mac / Linux
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+---
+
+## Step 3 — Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
+
+---
+
+## Step 4 — Run Application
+
+```bash
 streamlit run Home.py
 ```
 
 ---
 
-## 🖼️ Image Requirements
+## Step 5 — Open Browser
 
-Ensure all images are inside the `images/` folder:
-
-- Profile → `ID.png`  
-- Projects → `HMS.jpg`, `math_game.jpg`, etc.  
-- Certificates → `Cisco_CSS.png`, etc.  
-- Creative → crochet & calligraphy images  
+```
+http://localhost:8501
+```
 
 ---
 
-## 🎯 How to Use
+# requirements.txt
 
-- Navigate via sidebar  
-- Explore skills and projects  
-- View certificates  
+```txt
+streamlit>=1.28.0
+pillow>=9.0.0
+```
+
+---
+
+# 🖼️ Image Requirements
+
+## Profile Photo
+
+| Property | Value |
+|----------|------|
+| Filename | ID.png |
+| Location | images/ID.png |
+| Format | PNG |
+
+---
+
+## Project Images
+
+| Project | Filename |
+|--------|----------|
+| Hotel Management System | HMS.jpg |
+| Math Game | math_game.jpg |
+| Store Management System | SMS.jpg |
+| Photobooth | photbooth.jpg |
+
+---
+
+## Certificate Images
+
+| Certificate | Filename |
+|------------|----------|
+| CSS Essentials | Cisco_CSS.png |
+| Python Essential | Cisco_py.png |
+| Introduction to AI | intro_to_AI.png |
+| Cyber Security | Cyber_sec.png |
+| Python Beginner | python.png |
+| Django 101 | django.png |
+
+---
+
+# 🎯 How to Use
+
+## Navigation
+
+Use the sidebar to switch between pages.
+
+### Home Page
+
+- View profile  
+- See statistics  
+
+### About Page
+
+- Read personal story  
+- View education timeline  
+
+### Skills Page
+
+- See programming skills  
+- View creative works  
+
+### Projects Page
+
+- Explore completed projects  
+- View descriptions  
+
+### Certificates Page
+
+- View certifications  
+
+### Contact Page
+
 - Submit contact form  
-- Enjoy interactive stargazing  
+
+### Stargazing Page
+
+- Explore animations  
+- Listen to music  
 
 ---
 
-## 🎨 Customization
+# 🎨 Customization
 
-- Modify colors in CSS sections  
-- Add new skills/projects inside pages  
-- Replace images in `images/` folder  
+## Change Background
 
----
-
-## ☁️ Deployment
-
-1. Push to GitHub  
-2. Open Streamlit Cloud  
-3. Deploy using `Home.py`  
+```css
+background: radial-gradient(
+ellipse at center,
+#0a0f2a 0%,
+#060914 100%
+);
+```
 
 ---
 
-## 🔧 Troubleshooting
+## Add New Skill
+
+```python
+new_skill = {
+"icon": "✨",
+"title": "New Skill",
+"desc": "Description"
+}
+```
+
+---
+
+## Add New Project
+
+Update:
+
+```
+pages/Projects.py
+```
+
+---
+
+# ☁️ Deployment
+
+## Steps
+
+1. Push code to GitHub  
+
+```bash
+git add .
+git commit -m "Initial commit"
+git push origin main
+```
+
+2. Go to:
+
+```
+https://share.streamlit.io
+```
+
+3. Deploy application  
+
+---
+
+# 🔧 Troubleshooting
 
 | Issue | Solution |
-|------|---------|
+|------|----------|
 | Images not showing | Check file paths |
-| App not running | Install dependencies |
-| Errors loading pages | Verify structure |
+| Streamlit not found | Install dependencies |
+| Page not loading | Verify file structure |
+| Animation not working | Enable browser scripts |
 
 ---
 
-## 📬 Contact
+# 📬 Contact
 
-- 📧 Email: christinemaebanculo45@gmail.com  
-- 💻 GitHub: Banculochristinemae  
-
----
-
-## 🙏 Acknowledgments
-
-- DEBESMSCAT  
-- Streamlit  
-- NASA  
+| Platform | Details |
+|----------|--------|
+| Email | christinemaebanculo45@gmail.com |
+| GitHub | Banculochristinemae |
 
 ---
 
-## 📄 License
+# 🙏 Acknowledgments
 
-This project is for portfolio purposes.
+| Source | Contribution |
+|-------|-------------|
+| Streamlit | Web framework |
+| GitHub | Repository hosting |
+| Educational Institution | Learning support |
+
+---
+
+# 📄 License
+
+This project is for personal portfolio purposes.  
+All rights reserved.
 
 ---
 
 <div align="center">
 
-💫 *"The stars are the limit when you code with passion."*  
+# 💫 Quote
 
-⭐ If you like this project, consider giving it a star!
+**"The stars are the limit when you code with passion."**  
+
+— *Christine Mae C. Banculo*
+
+⭐ If you like this project, please give it a star on GitHub! ⭐  
+
+Created with 💜 using Python and Streamlit  
 
 </div>
